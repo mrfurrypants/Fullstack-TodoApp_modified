@@ -44,5 +44,7 @@ services:
 
 networks:
   mynetworks:
+    name: selenoid
+    external: true
 volumes:
   postgres-volume:
